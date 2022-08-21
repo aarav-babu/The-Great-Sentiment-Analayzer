@@ -7,6 +7,7 @@ Code authors: Aarav Babu, Aditi Singh, Atul Krishnan**
 The popularity of E-Commerce has grown multifold across the years since its inception. With the rise in traffic in such websites, there has been a growing dependency on the views and opinions of the products available. Companies and customers greatly rely on these reviews for sales, market demands, constructive criticism, and to check the quality of the product being bought. In our project, we’re looking at ways to avoid the manual labor involved in labeling the dataset through automatic annotating frameworks and are producing a dataset of Hindi reviews to help in the field of Sentiment Analysis in Indian Languages.
 
 We have successfully trained a highly accurate model on data which was automatically annotated to segregate these reviews into Suggestions and Complaints. The custom ML model was then deployed to identify and classify the given reviews (both for a huge number and for single reviews). We are using FLASK API to run our deployment. It is free for research use and if you find it useful or use it in your research, please acknowledge our git repository.
+Drive Link: https://drive.google.com/drive/folders/1O2YCk5huZIPrZn65uGdk9H4xHMK-8kt5?usp=sharing
 
 # Table of Contents:
 
