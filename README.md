@@ -10,26 +10,40 @@ We have successfully trained a highly accurate model on data which was automatic
 
 # Table of Contents:
 
-1. .[Getting Started with deployment].(#Getting-Started-with-deployment)
-2. .[About the Datasets, Automatic Annotation tools and Models].
-3. .[Future Scope].
-4. .[Contact us].
+1. [Getting Started with deployment](#getting-started-with-deployment)
+2. [About the Datasets Automatic Annotation tools and Models](#about-the-datasets-automatic-annotation-tools-and-models)
+3. [Future Scope](#future-scope)
+4. [Contact us](#contact-us)
 
-# Getting Started with deplyment
+# Getting Started with deployment
 
 1. To see the working model of our deployment, first download the zip file under /Deployment and extract it to the required folder.
 2. Open command prompt in the folder path.
-3. First pip install the “virtualenv” library in cmd using “pip install virtualenv”.
-4. Create a new virtual environment using the command “virtualenv abc”.
-   Alternate command “python -m virtualenv abc”.
-3. To enter the virtual environment, use the “abc\Scripts\Activate” command where “abc” is the name of the virtual environment.
-4. Once in virtualenv execute the command “pip install -r requirements.txt” to download all the dependencies.
-5. Then run the following commands:
-	> set FLASK_APP=app.py (app name)
-  > set FLASK_ENV=development
-  > flask run
-6. Copy and Paste the URL provided in the output screen onto any web browser.
-7. Depending on the type of file you downloaded (Mass/Single), enter either a URL of the product with its page number
+3. First pip install the “virtualenv” library in cmd using 
+ 	>pip install virtualenv
+
+5. Create a new virtual environment using the command 
+	>virtualenv abc
+	
+   Alternate command 
+ 	>python -m virtualenv abc
+   
+3. To enter the virtual environment, use the  command
+ 	>abc\Scripts\Activate
+	
+   where “abc” is the name of the virtual environment.
+6. Once in virtualenv execute the command to download all the dependencies.
+ 	>pip install -r requirements.txt 
+ 
+7. Then run the following commands:
+  	> set FLASK_APP=app.py (app name)
+  	> 
+  	> set FLASK_ENV=development
+  	> 
+  	> flask run
+  
+8. Copy and Paste the URL provided in the output screen onto any web browser.
+9. Depending on the type of file you downloaded (Mass/Single), enter either a URL of the product with its page number
  (for eg: https://www.amazon.in/Vivo-Midnight-Additional-Exchange-Offers/product-reviews/B09Q5Z5M9D/ref=cm_cr_arp_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2) or a single review (for eg: “The phone is fast enough for daily use. Software needs much more improvement seems like some settings for UI is missing. Search inside settings won't show any results even if they exists”) .
 
 # How to make your own .pkl file:
@@ -40,7 +54,7 @@ We have successfully trained a highly accurate model on data which was automatic
 5. Run the full code.
 6. Download the .pkl file from outputs and use it in your own deployment.
 
-# About the Datasets, Automatic Annotation Tools and Models
+# About the Datasets Automatic Annotation Tools and Models
 
 The datasets have been provided under the /Datasets folder. All the reviews that we’ve used have been scraped by us using the python codes provided under the /Web Scraping folder. We have also created a one-of-a-kind Hindi/Hinglish balanced product reviews dataset that has also been web scraped (code provided) by us. It consists of 4331 reviews out of which 2284 were suggestions and 2047 were complaints.
 
@@ -57,7 +71,9 @@ We hope you like our project and it helps you to work more in this field.
 # Contact Us:
 
 Atul Krishnan: atul.krishnan02@gmail.com
+
 Aditi Singh: aditisingh02430@gmail.com
+
 Aarav Babu: aaravbabu2002@gmail.com
 
 
