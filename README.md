@@ -70,10 +70,16 @@ We hope you like our project and it helps you to work more in this field.
 
 # Contact Us:
 
-Atul Krishnan: atul.krishnan02@gmail.com github:AtulKrishnan
+Atul Krishnan: atul.krishnan02@gmail.com 
 
-Aditi Singh: aditisingh02430@gmail.com github:aditi-singh2
+       github:AtulKrishnan
 
-Aarav Babu: aaravbabu2002@gmail.com github:aarav-babu
+Aditi Singh: aditisingh02430@gmail.com 
+
+     github:aditi-singh2
+
+Aarav Babu: aaravbabu2002@gmail.com 
+
+    github:aarav-babu
 
 
